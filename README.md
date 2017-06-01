@@ -38,31 +38,31 @@
 
    Project #2, parses the given files and reports function definitions, type definitions, and typedefs and aliases. No use of Abstract Syntax Tree.
 
-10. SymbolTable
+1. SymbolTable
 
    This module is a generic key/value pair symbol table which stores file names as key, and a particular type as value. For the type analysis we use a special record type as the value, defined in a different package. This module makes heavy use of the unordered_map, and behaves very similar to that, with added functionality.
 
-11. symTableRecord
+1. symTableRecord
 
    Defines entries to be stored in the Symbol Table.
 
-12. Tasks
+1. Tasks
 
    Makes use of Threadpool services to start a number of threads and execute callable objects on them.
 
-13. TypeAnal
+1. TypeAnal
 
    Runs type analysis for a single file and returns the symbol table for that file. It also stores all the typedefs and usings of a file in the same symbol table.
 
-14. DepAnal
+1. DepAnal
 
    Performs dependency analysis of a file by tokenizing it, and comparing the tokens to the symbol table. So any token used by the file, class names, namespace names, etc would mean that the file is dependent on some file mentioned in the symbol table. Since usings are also detected, any file that is using a namespace is automatically dependent on that file, whether or not it uses that namespace.
 
-15. ParallelDepAnal
+1. ParallelDepAnal
 
    Uses the services of the Tasks class to start up a number of threads, search for files in a given directory tree, does type analysis, merges the individual tables, then does individual dependency analyses and merges them all together. One thread is used to search for files, 4 threads are used to do type and dependency analyses each.
 
-16. ParallelDepExec
+1. ParallelDepExec
 
    This is the Test Executive, the entry point for the project which demonstrates that all the requirements have met.
 
