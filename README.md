@@ -1,8 +1,8 @@
-CSE 687 Project #3 Spring 2016
-==============================
+# CSE 687 Project #3 Spring 2016
+# ==============================
 
-Package Structure
------------------
+# Package Structure
+# -----------------
 
 1. Cpp11-BlockingQueue- Provides services for a blocking queue with mutexes,
 			to be used by the threadpool module.
@@ -93,8 +93,8 @@ Release Notes
 	already working code.
 
 
-Demonstrating Requirements
---------------------------
+# Demonstrating Requirements
+# --------------------------
 
 Requirement #3:		All the packages have been succesfully implemented and all
 			functions succesfully tested.
@@ -112,3 +112,26 @@ Requirement #8:		It can be tested by viewing the ParallelDepAnal.h file
 Requirement #9:		It can be tested by viewing the ParallelDepExec.h file
 
 Requirement #10:	ParallelDepExec is the automated test suite.
+
+# License information
+MIT License
+
+Copyright (c) 2016 Ayush Khemka
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
